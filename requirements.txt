@@ -1,0 +1,5 @@
+fdb==2.0.1
+future==0.18.2
+pymssql==2.1.4
+pyodbc==4.0.30
+PyYAML==5.3.1
