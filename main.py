@@ -1,14 +1,13 @@
+import copy
 import json
 import logging
-import os
 import re
-import time
-import copy
 from datetime import datetime
+
 import fdb
 import yaml
 
-logging.basicConfig(filename='export_phoenix_employee.log',
+logging.basicConfig(filename='export_dnb_employee.log',
                     format='%(asctime)s-%(process)d-%(levelname)s-%(message)s', level=logging.DEBUG)
 logging.info("Starting program")
 logging.info("Try to open config")
